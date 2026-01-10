@@ -2,4 +2,7 @@
 	"name": "Бот мк Ботфейс"
 }
 ---------------------------
-console.log("1111ффф") //Action
+({something}) => {
+	console.log("1234", something) //Action
+	return something
+}
