@@ -12,6 +12,6 @@
 ---------------------------
 ({game, history, memory}) => {
 	game.say("Бот скажет это, когда сделает действие")
-	game.all_in
+	game.all_in()
 	return memory
 }
