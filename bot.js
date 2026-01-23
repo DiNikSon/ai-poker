@@ -1,4 +1,5 @@
 {
+  config: {
 	"name": "Отображаемое название",
 	"image_url": "https://fastly.picsum.photos/id/237/200/200.jpg", //URL изображения для аватара,
 	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend, libero a eleifend egestas, massa turpis tincidunt justo, vitae lobortis elit dui id nisl." //Краткое и емкое описания для начала,
@@ -8,10 +9,10 @@
 		"Бронза - мой любимый сыр" // 3 место
 	],
 	"lose_say": "Пойду поем", //Краткая фраза, которую бот скажет если выбудет (закончатся фишки)
-}
----------------------------
-({game, history, memory}) => {
-	game.say("Бот скажет это, когда сделает действие")
-	game.all_in()
-	return memory
+},
+  turn: ({game, history, memory}) => {
+		game.say("Бот скажет это, когда сделает действие")
+		game.all_in()
+		return memory
+	}
 }
