@@ -2,6 +2,7 @@
   config: {
 	"name": "Отображаемое название",
 	"image_url": "https://fastly.picsum.photos/id/237/200/200.jpg", //URL изображения для аватара,
+	"author_name": "Иван Иванов мл." //Имя автора
 	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend, libero a eleifend egestas, massa turpis tincidunt justo, vitae lobortis elit dui id nisl." //Краткое и емкое описания для начала,
 	"win_say": [ //Краткая фраза, которую бот скажет в финале при победе:
 		"...",	// 1 место
