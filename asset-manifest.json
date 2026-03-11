@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ai-poker/static/css/main.41c9b402.css",
+    "main.js": "/ai-poker/static/js/main.dec665e2.js",
+    "static/media/background.jpg": "/ai-poker/static/media/background.5a59773bfc44b2cdb69a.jpg",
+    "index.html": "/ai-poker/index.html",
+    "main.41c9b402.css.map": "/ai-poker/static/css/main.41c9b402.css.map",
+    "main.dec665e2.js.map": "/ai-poker/static/js/main.dec665e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41c9b402.css",
+    "static/js/main.dec665e2.js"
+  ]
+}
