@@ -9,6 +9,11 @@
 - [Структура бота](#структура-бота)
 - [API методы](#api-методы)
 
+## Ссылки
+
+- [Приложение](https://dinikson.github.io/ai-poker/)
+- [Примеры ботов](https://github.com/DiNikSon/ai-poker/tree/main/bots)
+
 ---
 
 ## Быстрый старт
